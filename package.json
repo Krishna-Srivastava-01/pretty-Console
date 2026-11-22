@@ -1,0 +1,44 @@
+{
+  "name": "pretty-console-kit",
+  "version": "1.0.0",
+  "description": "A lightweight, zero-dependency Node.js logging utility that provides colored, timestamped, categorized console logs with configurable logging levels and prefixes.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "example": "node examples/basic.js"
+  },
+  "keywords": [
+    "logger",
+    "logging",
+    "console",
+    "pretty-console",
+    "colors",
+    "ansi",
+    "zero-dependency",
+    "esm",
+    "cli",
+    "terminal"
+  ],
+  "author": "Krishna Srivastava <krishnasrivastava0111@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krishna-Srivastava-01/pretty-Console.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Krishna-Srivastava-01/pretty-Console/issues"
+  },
+  "homepage": "https://github.com/Krishna-Srivastava-01/pretty-Console#readme"
+}
